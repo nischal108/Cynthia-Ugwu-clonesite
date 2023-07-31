@@ -10,7 +10,7 @@ html,body{
     width: 100%;
     height: 100%;
     list-style: none;
-    
+    /* overflow: hidden; */
 }
 
 /* //some variables */
@@ -40,22 +40,49 @@ html,body{
     align-items: center;
     justify-content: space-between;
     color: #fff;
-    padding: 20px 40px; 
+    padding: 30px 40px; 
     width: 100%;
+    font-size: 1.25vw;
+    font-weight: 500;
 }
 #nav a{
     color: #fff;
-    font-size: 1.5vw;
     text-decoration: none;
 }
 
 #heading{
+    margin-top: 82px;
+    margin-left: 30px;
     color: #a3a3a3;
 }
 #heading h1{
-    opacity: .8;
+    opacity: .9;
     line-height: 1;
-    font-size: 9vw;
+    font-size: 9.8vw;
     font-family: var(--font_medium);
-    font-weight: 900;
+    font-weight: 600;
+}
+#heading .second{
+    margin-left: 130px;
+}
+.blocktext{
+    width: fit-content;
+    /* background-color: red; */
+}
+.blocktext p{
+    text-align: end;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--color_white);
+}
+#corner-headings{
+    color: var(--color_white);
+    margin-top: 93px;
+    padding-right: 50px;
+}
+
+#corner-headings h5{
+    margin-top: .5vw;
+    font-size: 1.2vw;
+    text-align: end;
 }
