@@ -40,10 +40,14 @@ html,body{
     align-items: center;
     justify-content: space-between;
     color: #fff;
-    padding: 30px 40px; 
+    background-color: var(--color_primary);
+    padding: 25px 40px; 
     width: 100%;
     font-size: 1.25vw;
     font-weight: 500;
+    position: fixed;
+    top: 0%;
+    z-index: 99;
 }
 #nav a{
     color: #fff;
@@ -51,7 +55,7 @@ html,body{
 }
 
 #heading{
-    margin-top: 82px;
+    padding-top: 12vw;
     margin-left: 30px;
     color: #a3a3a3;
 }
@@ -85,4 +89,104 @@ html,body{
     margin-top: .5vw;
     font-size: 1.2vw;
     text-align: end;
+}
+
+ /* hero footer */
+ #hero_footer{
+    padding: 0 50px;
+    /* position: absolute;
+    bottom: 5%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ #hero_footer a{
+    color: var(--color_white);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+ }
+
+ #iconset{
+    margin-top: 10px;
+    color: var(--color_primary);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+ }
+
+#circle{
+    background-color: var(--color_secondary);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+}
+
+
+/* Second page  */
+#second_page{
+    width: 100%;
+    height: 130vh;
+    background-color: var(--color_primary);
+    padding: 13vw 10vw 0 2.5vw;
+}
+.plug{
+    border-top: 1px solid var(--color_secondary);
+    padding: 3vw 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.plug h1{
+    color: #a3a3a3;
+    font-size: 7vw;
+    opacity: .9;
+}
+.plug h5{
+    color: var(--color_white);
+}
+.pluglast{
+    border-bottom: 1px solid var(--color_secondary);
+}
+
+.plug img{
+    display: none;
+    position: absolute;
+    z-index: 999;
+    height: 140%;
+}
+
+
+ /* third page */
+ #third_page{
+    background-color: var(--color_primary);
+    width: 100%;
+    height: 100vh;
+ }
+ #third_page{
+    /* display: flex;
+    align-items: center;
+    justify-content: flex-end; */
+ }
+ #about{
+    padding: 10vw 10vw 0 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 25px;
+ }
+ #about img{
+    width: 18vw;
+    height: auto; 
+}
+#about #text{
+    color: var(--color_white);
 }
