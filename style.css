@@ -30,7 +30,7 @@ html,body{
 
 #hero{
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-color: #000000;
 }
 
@@ -133,7 +133,7 @@ html,body{
 /* Second page  */
 #second_page{
     width: 100%;
-    height: 130vh;
+    height: auto;
     background-color: var(--color_primary);
     padding: 13vw 10vw 0 2.5vw;
 }
@@ -169,7 +169,9 @@ html,body{
  #third_page{
     background-color: var(--color_primary);
     width: 100%;
-    height: 100vh;
+    height: auto;
+    padding-top: 7vw;
+    /* margin-bottom: 30px; */
  }
  #third_page{
     /* display: flex;
@@ -177,16 +179,108 @@ html,body{
     justify-content: flex-end; */
  }
  #about{
-    padding: 10vw 10vw 0 30vw;
+    padding: 8vw 10vw 0 35vw;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: 25px;
+    gap: 50px;
+    margin-bottom: 80px;
  }
  #about img{
-    width: 18vw;
+    width: 200px;
     height: auto; 
 }
 #about #text{
     color: var(--color_white);
 }
+#text{
+    width: 25rem;
+    /* font-size: 1.2vw; */
+}
+
+#text h5{
+    text-transform: uppercase;
+    opacity: .6;
+}
+#text p{
+    margin-bottom: 16px;
+    line-height: 1.5;
+}
+
+#text a{
+    text-decoration: none;
+    color: var(--color_white);
+    border: solid 1px #fff;
+    border-radius: 12px;
+    padding: 3px 9px;
+    font-size: 0.9rem;
+}
+
+.about_footer{
+    padding-left: 3vw;
+    padding-top: 20px;
+    color: var(--color_white);
+    line-height: 2;
+    padding-bottom: 7px;
+    background-color: var(--color_primary);
+}
+
+.about_footer h5{
+    opacity: .5;
+    font-size: .8rem;
+}
+
+.about_footer p{
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.about_footer p:hoover{
+    text-decoration: underline;
+}
+
+#footer{
+    background-color: var(--color_primary);
+    color: var(--color_white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5vw 3vw;
+    padding-top: 8vw;
+    /* margin-top: 25px; */
+}
+#footer #date{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4vw;
+}
+#footer #social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+}
+
+#social a{
+    color: var(--color_white);
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-family: var(--font_medium) ;
+}
+
+
+
+ /* making responsive */
+ @media only screen and (max-width: 750px){
+    #about{
+        flex-direction: column;
+        padding: 8vw 10vw 0 8vw;
+    }
+    #footer{
+        flex-direction: column;
+        gap: 20px;
+    }
+ }
+ 
