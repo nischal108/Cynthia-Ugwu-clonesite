@@ -20,9 +20,18 @@ html,body{
     --color_white : #fff;
     --font_medium : "General Sans Medium";
 }
-
+#backcircle{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    z-index: 99999;
+    border-radius: 50%;
+    background-color: #fff;
+}
 #main{
     width: 100%;
+    background-color: var(--color_primary);
 
 }
 

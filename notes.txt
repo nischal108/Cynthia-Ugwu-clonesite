@@ -1,0 +1,12 @@
+smooth scrolling   locomotive js 
+    first copy css of locomotive and paste in new css file 
+    link that css file 
+    use cdn of locomotive in script tag  minjs
+    copy the js code from github of locomotive
+    link the js file with that piece of code to the index file 
+    chenge the targeted container in the code 
+
+gsap
+    link gsap cdn in script tag
+
+scroll trigger
