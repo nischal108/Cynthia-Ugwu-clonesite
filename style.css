@@ -48,13 +48,13 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
     color: #fff;
     background-color: var(--color_primary);
     padding: 25px 40px; 
     width: 100%;
-    font-size: 1.25vw;
+    font-size: 0.7rem;
     font-weight: 500;
-    position: fixed;
     top: 0%;
     z-index: 99;
 }
@@ -103,8 +103,6 @@ html,body{
  /* hero footer */
  #hero_footer{
     padding: 0 50px;
-    /* position: absolute;
-    bottom: 5%; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -114,7 +112,7 @@ html,body{
     color: var(--color_white);
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 1.3vw;
     font-weight: 600;
  }
 
@@ -180,13 +178,8 @@ html,body{
     width: 100%;
     height: auto;
     padding-top: 7vw;
-    /* margin-bottom: 30px; */
  }
- #third_page{
-    /* display: flex;
-    align-items: center;
-    justify-content: flex-end; */
- }
+
  #about{
     padding: 8vw 10vw 0 35vw;
     width: 100%;
@@ -286,10 +279,24 @@ html,body{
     #about{
         flex-direction: column;
         padding: 8vw 10vw 0 8vw;
+        font-size: 0.9rem;
     }
     #footer{
         flex-direction: column;
         gap: 20px;
+
+    }
+    #hero_footer{
+        padding-left: 4vw;
+    }
+    #hero_footer a{
+        font-size: 0.7rem;
+    }
+    #corner-headings h5{
+        font-size: 0.6rem;
+    }
+    #heading{
+        padding-top: 19vw;
     }
  }
  
