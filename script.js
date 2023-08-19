@@ -13,3 +13,25 @@ function circleMouseFollower(){
 
 //running the mouse track function
 circleMouseFollower();
+
+
+//intro animation 
+function introanimaton(){
+    var tl = gsap.timeline();
+
+    tl.from("#nav",{
+        y:'-10',
+        opacity:0,
+        duration:1.5,
+        ease:Expo.easeInOut
+    })
+
+    .to(".elems",{
+        y:0,
+        ease:Expo.easeInOut,
+        delay:0,
+        duration:2,
+        stagger:.2
+    })
+}
+introanimaton();

@@ -78,6 +78,16 @@ html,body{
 #heading .second{
     margin-left: 130px;
 }
+
+/* // opening animations for text */
+.animation-heading .elems{
+    transform: translateY(100%);
+}
+.animation-heading{
+    width: fit-content;
+    overflow: hidden;
+    /* background-color: red; */
+}
 .blocktext{
     width: fit-content;
     /* background-color: red; */
