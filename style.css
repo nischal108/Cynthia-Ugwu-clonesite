@@ -60,7 +60,11 @@ html,body{
 }
 #nav a{
     color: #fff;
+    font-size: 3vw;
     text-decoration: none;
+}
+#nav h4{
+    font-size: 2vw;
 }
 
 #heading{
